@@ -8,8 +8,8 @@ public class Main {
 
 
 
-        for(int i=0;i<x.length;i++) {
-            for (int j = 0; j < y.length; j++) {
+        for(int i=0;i<y.length;i++) {
+            for (int j = 0; j < y[i].length; j++) {
                 System.out.println(y[i][j]);
             }
         }
